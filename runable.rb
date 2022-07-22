@@ -110,7 +110,6 @@ loop do
         hour = gets.chomp
         puts "Enter minutes in range of 0 to 59"
         minute = gets.chomp
-        #eve.upate_event_on_given_date_and_time(date, hour, minute)     
         eve.view_all_events_on_given_date_and_time(date, hour, minute)
         puts "Enter the field you want to update i.e title 'abc', date 'm/dd/yyy', hour 'in range of 0 to 23', minute 'in range of 0 to 59'"
         symbol = gets.chomp
